@@ -1,26 +1,33 @@
-import { EthProvider } from "./contexts/EthContext";
-import Intro from "./components/Intro/";
-import Setup from "./components/Setup";
-import Demo from "./components/Demo";
-import Footer from "./components/Footer";
 import "./App.css";
 
+import Transaction from "./components/Transaction";
+import Intro from "./components/Intro";
+import {Route, Routes} from "react-router-dom";
+import DetailPage from "./components/DetailPage";
+
 function App() {
-  return (
-    <EthProvider>
-      <div id="App" >
-        <div className="container">
-          <Intro />
-          <hr />
-          <Setup />
-          <hr />
-          <Demo />
-          <hr />
-          <Footer />
-        </div>
-      </div>
-    </EthProvider>
-  );
+  return <div>
+      <Routes>
+          <Route path="/details" element={<Details />} />
+          <Route exact path="/" element={<Home />} />
+      </Routes>
+  </div>
+
+
+
 }
 
+const Home = () => {
+    return <div id="App" >
+            <div className="container">
+                <Intro/>
+                <br/>
+                <Transaction/>
+            </div>
+        </div>
+}
+
+const Details = () => {
+    return <DetailPage />
+}
 export default App;
