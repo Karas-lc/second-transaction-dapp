@@ -4,6 +4,7 @@ import Transaction from "./components/Transaction";
 import Intro from "./components/Intro";
 import {Route, Routes} from "react-router-dom";
 import DetailPage from "./components/DetailPage";
+import NavigationBar from "./components/NavigationBar";
 
 function App() {
   return <div>
@@ -20,6 +21,7 @@ function App() {
 const Home = () => {
     return <div id="App" >
             <div className="container">
+                <NavigationBar />
                 <Intro/>
                 <br/>
                 <Transaction/>

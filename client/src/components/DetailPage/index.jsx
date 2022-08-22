@@ -4,12 +4,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Dialog, DialogActions,  DialogTitle} from "@mui/material";
+import {Container, Dialog, DialogActions, DialogTitle} from "@mui/material";
 
-
-
-const theme = createTheme();
 
 export default function DetailPage() {
     const [open, setOpen] = React.useState(false);
@@ -20,7 +16,7 @@ export default function DetailPage() {
         setOpen(false);
     };
     return (
-        <ThemeProvider theme={theme}>
+        <Container>
             <Grid container component="main" sx={{ height: '100vh' }}>
                 <CssBaseline />
                 <Grid
@@ -69,6 +65,6 @@ export default function DetailPage() {
                     <Button>No, I'm not</Button>
                 </DialogActions>
             </Dialog>
-        </ThemeProvider>
+        </Container>
     );
 }
