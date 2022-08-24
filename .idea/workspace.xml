@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000ef2cb-49b3-485e-a46b-9fd1992648d8" name="Changes" comment="1 milestone">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NavigationBar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truffle/contracts/initNFT.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truffle/hardhat.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truffle/nft-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truffle/scripts/mint-nft.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DetailPage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/DetailPage/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/truffle/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/truffle/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle/scripts/increment.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle/scripts/deploy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,24 +40,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Project.color&quot;: &quot;610702&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/liuchang/DAppProjects/second-transaction-dapp&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/components/Transaction" />
@@ -84,6 +74,10 @@
       <workItem from="1660825330865" duration="523000" />
       <workItem from="1660977387135" duration="15450000" />
       <workItem from="1661159656513" duration="3231000" />
+      <workItem from="1661247129797" duration="2158000" />
+      <workItem from="1661256703499" duration="305000" />
+      <workItem from="1661306366369" duration="1955000" />
+      <workItem from="1661333041601" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="1 milestone">
       <created>1660992116480</created>
@@ -108,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 milestone" />
